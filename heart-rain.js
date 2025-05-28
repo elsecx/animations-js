@@ -13,3 +13,5 @@ function createHeart() {
         heart.remove();
     }, 5000);
 }
+
+setInterval(createHeart, 300);
